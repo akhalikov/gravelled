@@ -15,7 +15,8 @@ Candidate routes (pacing basis: 50–60 km/day loaded, mountains 40–50):
 - **Power meter**: ✅ ordered 4iiii Precision 3+ RX810 GRX NDS, 170 mm (new from Bikeinn/Tradeinn, ~$370, July 31, 2026) — compatible with RX820 crankset; OLX used unit was already sold
 - **Second wheelset**: for city training, standard 12×142 axle, narrow 28-32C tires with tubes, looking for used on OLX/Allegro
 - **Tubeless**: switch after first test rides — **do before Aug 8 trip**; target ~2.2–2.6 bar at 72 kg (current 3.5–4 bar with tubes is the main source of harshness)
-- **Faster tires** (if tubeless alone doesn't fix stiff/slow feel): Specialized Pathfinder Pro 42/47 or Conti Terra Speed 45 for loaded trips; Schwalbe G-One RS if prioritizing speed
+- **Faster tires**: **Tufo Gravel Thundero HD 44** (chosen) — fast per BRR tests, supple casing, HD = +25% puncture protection for loaded trips. Alternatives considered: Pathfinder Pro, Terra Speed, G-One RS
+  - Tubeless install may need a booster: charge tank to ~8–11 bar with floor pump, dump into tire to seat beads; remove valve core for faster airflow, soapy water on beads
 - **Shoes**: replace Northwave Hammer Plus (heavy, poor ventilation, toe pressure on long rides). Top candidate: Canyon Scampr (~390–450 g, breathable knit, Boa wrap, 2-bolt SPD). Alternatives: Quoc Gran Tourer (roomiest toe box), Fizik Terra Ergolace. Consider +0.5 size for foot swell
 - **1× drivetrain**: already standard on Grizl
 
