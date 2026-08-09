@@ -40,6 +40,7 @@
 
 ### Other
 
+- Saddle: Power Comp 143 mm (per Retül fit, Aug 2026)
 - Pedals: SPD (2-bolt cleats)
 - Cleat installed in middle position of the slot
 - Spoke protector still on — 51T sprocket not yet tested
@@ -76,5 +77,5 @@
 - Height: 175 cm
 - Inseam: 83.5 cm
 - Foot length: 27 cm (shoes: buy by brand's cm chart with ~5 mm margin, ≈ EUR 43; size 42 proved too small)
-- Recommended saddle height: ~745 mm
+- Saddle height: 745 mm (confirmed by Retül fit, Aug 2026 — see [bike-fit.md](bike-fit.md))
 - Weight: 72 kg

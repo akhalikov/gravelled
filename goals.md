@@ -25,7 +25,7 @@ Set August 2, 2026, based on [atlas-insights.md](atlas-insights.md).
 - [ ] **Tatra Loop in 1 day** (autumn): 196 km / ~2,700 m — see [training-plan.md](training-plan.md)
 - [ ] Rehearsal: 2-day Tatra Loop with 1 overnight (Aug 8–16 window)
 - [ ] First century (100+ km, 1,000+ m) on the Grizl — training step on the way, pacing HR 125–128
-- [ ] Bike fitting — scheduled Friday Aug 7
+- [x] Bike fitting — done Aug 7 (Retül, see [bike-fit.md](bike-fit.md))
 
 ## Supporting (from plans.md)
 

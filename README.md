@@ -9,9 +9,13 @@ Context repository for my gravel bike and overall cycling journey.
 - [rides.md](rides.md) — ride log
 - [plans.md](plans.md) — planned upgrades and to-dos
 - [garmin-mcp.md](garmin-mcp.md) — Garmin Connect ↔ Claude setup (install steps, gotchas)
+- [bike-fit.md](bike-fit.md) — Retül fit coordinates (Aug 2026)
 - [atlas-insights.md](atlas-insights.md) — training baselines from the Atlas era
 - [goals.md](goals.md) — goals for end of 2026
 - [training-plan.md](training-plan.md) — Tatra Loop season goal: training progression
+- [db/](db/) — Postgres schema + views for the riding dataset
+- [pipeline/](pipeline/) — Garmin → Postgres ingestion (backfill + sync)
+- [infra/](infra/) — Docker Compose (Postgres + Grafana) for the home server
 
 ## Quick Facts
 
@@ -25,3 +29,4 @@ Context repository for my gravel bike and overall cycling journey.
 - Canyon box kept — useful for transport during autumn trip
 - Spoke protector: remove after testing 51T sprocket
 - Aerobar seen in Canyon marketing photos is not stock — appears to be Ergon + Profile Design or similar
+- Riding data is mirrored to **Postgres on 192.168.1.9** (`pipeline/` → `db/`); **Grafana** dashboards at http://192.168.1.9:3000
