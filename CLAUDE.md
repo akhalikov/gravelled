@@ -32,6 +32,7 @@ stay at the repo root. Register every new content file in the README `## Content
 
 Code + infra (the data pipeline) live in subdirectories:
 
+- `backend/` — Kotlin + Quarkus (Gradle) backend: owns schema via Flyway migrations, REST API (ADR 0005)
 - `db/` — Postgres schema (`schema.sql`) and views (`views.sql`) for the riding dataset
 - `pipeline/` — Garmin → Postgres ingestion (`ingest.py`): backfill + incremental sync
 - `infra/` — Docker Compose (Postgres 16 + Grafana) for the home server (192.168.1.9)
