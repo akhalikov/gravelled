@@ -8,3 +8,6 @@
 # python
 __pycache__/
 *.pyc
+
+# Idea
+.idea

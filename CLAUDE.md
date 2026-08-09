@@ -26,6 +26,9 @@ stay at the repo root. Register every new content file in the README `## Content
 - `docs/atlas-insights.md` — fitness baselines & benchmarks carried over from the previous bike ("Atlas era")
 - `docs/bike-fit.md` — Retül fit coordinates (Aug 2026)
 - `docs/garmin-mcp.md` — runbook for wiring Garmin Connect into Claude via MCP
+- `docs/adr/` — Architecture Decision Records for **system** decisions (pipeline, schema,
+  infra, tooling); see `docs/adr/README.md` for the convention. Athletic/gear decisions
+  stay in the knowledge base, not ADRs.
 
 Code + infra (the data pipeline) live in subdirectories:
 
@@ -35,9 +38,12 @@ Code + infra (the data pipeline) live in subdirectories:
 
 ## Conventions
 
-- **Files:** Markdown content is lowercase-hyphenated `.md` in `docs/` (flat — no nesting inside).
-  `README.md` and `CLAUDE.md` stay at the repo root. Pipeline code/infra live in `db/`, `pipeline/`,
-  `infra/`. `.claude/workspace/` is git-ignored scratch.
+- **Files:** Markdown content is lowercase-hyphenated `.md` in `docs/` (flat — no nesting inside,
+  except `docs/adr/`). `README.md` and `CLAUDE.md` stay at the repo root. Pipeline code/infra live
+  in `db/`, `pipeline/`, `infra/`. `.claude/workspace/` is git-ignored scratch.
+- **ADRs:** every new **code/infra feature** is built in its own git worktree (branch off `main`)
+  and ships with an ADR (`docs/adr/NNNN-*.md`, from `0000-template.md`) committed on that branch.
+  Docs-only changes go straight to `main`, no ADR. Accepted ADRs are immutable — supersede, don't edit.
 - **Links:** files inside `docs/` link to each other bare (`[bikes.md](bikes.md)`); README links with
   the `docs/` prefix; docs → code links go up a level (`../pipeline/`).
 - **Structure:** one `#` H1 title, then `##` sections, then `-` bullet lists. Bold marks key entities
