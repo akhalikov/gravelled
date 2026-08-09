@@ -9,6 +9,8 @@ Context repository for my gravel bike and overall cycling journey.
 - [rides.md](rides.md) — ride log
 - [plans.md](plans.md) — planned upgrades and to-dos
 - [garmin-mcp.md](garmin-mcp.md) — Garmin Connect ↔ Claude setup (install steps, gotchas)
+- [atlas-insights.md](atlas-insights.md) — training baselines from the Atlas era
+- [goals.md](goals.md) — goals for end of 2026
 
 ## Quick Facts
 
