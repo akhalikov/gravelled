@@ -19,8 +19,9 @@ Candidate routes (pacing basis: 50–60 km/day loaded, mountains 40–50):
   - Still needed for tubeless: sealant (~100 ml/tire + top-up bottle), tubeless valves ~44 mm, plug kit
   - Tubeless install may need a booster: charge tank to ~8–11 bar with floor pump, dump into tire to seat beads; remove valve core for faster airflow, soapy water on beads
 - **Shoes**: replace Northwave Hammer Plus (heavy, poor ventilation, toe pressure on long rides). **Root cause found**: size 42 = 26.7 cm foot, but actual foot length is 27 cm — shoe too small from day one. **Sell Hammer Plus while BOA works.**
-  - Sizing rule: buy by foot length from each brand's cm chart, not EUR size. 27 cm + ~5 mm long-ride margin → EUR 43 in Northwave terms (42.5 is zero-margin minimum)
-  - Top candidate: Canyon Scampr (~390–450 g, breathable knit, Boa wrap, 2-bolt SPD). Alternatives: Quoc Gran Tourer (roomiest toe box), Fizik Terra Ergolace
+  - Sizing rule: buy by foot length from each brand's cm chart, not EUR size. 27 cm + ~5 mm long-ride margin
+  - ✅ **Ordered: Fizik Terra Atlas, Black, EU 42.5** (Bikeinn, 607.98 zł, Aug 5, delivery ~Aug 7–10). Wide toe box + moderate sole stiffness — chosen over Canyon Scampr, Ferox 2 Carbon (stiffness 10/10 too much for long days), Vento Proxy (racing last, no expanded toe box)
+  - On arrival: check thumb-width margin in front of longest toe; break in on home loops before Tatra 1-day; Hammers do the 2-day trip
 - **1× drivetrain**: already standard on Grizl
 
 ## To-Do
