@@ -1,6 +1,22 @@
 # Ride Log
 
-## 2026-08-03 — Gravel Tempo 3×12min (first structured session)
+## 2026-08-08 — Tenczyński Park (longest Grizl ride, first with power)
+
+- Distance: 92.02 km
+- Elevation gain: 747 m
+- Moving time: 4:32 (20.3 km/h), on-bike 5:44, elapsed 8:08 (~2.4 h stops — too much for Tatra day)
+- Avg HR: 116 bpm, max 168 bpm — textbook all-day pacing (target was ≤125)
+- Power (first ride with 4iiii): Avg 94 W, **NP 158 W** (2.2 W/kg), max 557 W
+  - ⚠️ zero-offset was NOT done before this ride — treat absolute watts as provisional
+- Training load: 160, Aerobic TE 3.4, Calories: 2,313
+- Tatra readiness verdict: engine and pacing proven; unproven — hours 5–10, fueling at 5,000 kcal scale, 3.6× the climbing, stop discipline
+
+### Reflections (day of + day after)
+
+- Noticeably increased libido right after the ride and the next day, despite tiredness
+- Next-day lunchtime tiredness and strong desire to sleep — normal glycogen/recovery dip after biggest load in months
+- 50 min stretching + hamstring foam rolling next day at lunch, follow-along video: https://www.youtube.com/watch?v=GB-zYq1prl4
+- Discovered rectus femoris / vastus medialis are also tender — rolling accidentally touched them, painful → add quads to the daily rolling routine, not just hamstrings
 
 - Distance: 30.01 km
 - Time: 1:18
