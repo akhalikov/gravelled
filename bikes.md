@@ -51,13 +51,15 @@
 
 **Kona Rove DL 2019** — used for everyday rides and errands
 
+- Tracked in Garmin: 367.9 km / 39 activities (as of Aug 2, 2026; many city rides untracked)
+
 ---
 
 ## Sold Bike
 
 **Focus Atlas 8.7** — owned August 12, 2024 – July 24, 2026 (sold for 7,000 PLN)
 
-- Total mileage: 1,350 km
+- Total mileage: 1,294.8 km / 35 activities (per Garmin gear stats after cleanup, Aug 2026)
 
 - Carbon frame, size 54
 - Stack: 576 mm, Reach: 395 mm
