@@ -8,6 +8,7 @@ Context repository for my gravel bike and overall cycling journey.
 - [equipment.md](equipment.md) — computers, bikepacking bags, clothing
 - [rides.md](rides.md) — ride log
 - [plans.md](plans.md) — planned upgrades and to-dos
+- [garmin-mcp.md](garmin-mcp.md) — Garmin Connect ↔ Claude setup (install steps, gotchas)
 
 ## Quick Facts
 
