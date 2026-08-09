@@ -1,6 +1,6 @@
 # 0005 — Backend: Kotlin + Quarkus + Gradle, Flyway migrations
 
-- **Status**: Proposed
+- **Status**: Accepted
 - **Date**: 2026-08-09
 
 ## Context

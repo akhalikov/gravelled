@@ -49,13 +49,27 @@ dependencies {
 // --- jOOQ code generation ----------------------------------------------------
 // Needs a reachable, migrated database (home server by default; override via env).
 // Generated sources land in build/ (not committed) — regenerate after migrations.
+
+// Gradle does NOT read .env files (only Quarkus dev mode does), so we parse
+// backend/.env ourselves: real env vars win, then .env, then the default.
+// Kotlin notes: `takeIf` returns the receiver or null; the `?:` (elvis) chain
+// is Kotlin's null-safe "first non-null wins".
+val dotEnv: Map<String, String> = file(".env").takeIf { it.exists() }
+    ?.readLines()
+    ?.filter { it.isNotBlank() && !it.trimStart().startsWith("#") && it.contains('=') }
+    ?.associate { it.substringBefore('=').trim() to it.substringAfter('=').trim() }
+    ?: emptyMap()
+
+fun env(name: String, default: String): String =
+    System.getenv(name) ?: dotEnv[name] ?: default
+
 jooq {
     configuration {
         jdbc {
             driver = "org.postgresql.Driver"
-            url = System.getenv("DB_JDBC_URL") ?: "jdbc:postgresql://192.168.1.9:5432/gravelled"
-            user = System.getenv("DB_USER") ?: "gravelled"
-            password = System.getenv("DB_PASSWORD") ?: ""
+            url = env("DB_JDBC_URL", "jdbc:postgresql://192.168.1.9:5432/gravelled")
+            user = env("DB_USER", "gravelled")
+            password = env("DB_PASSWORD", "")
         }
         generator {
             // KotlinGenerator: generated records are Kotlin, with nullability

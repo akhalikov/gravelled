@@ -26,10 +26,11 @@ before this convention existed — the greenfield build and the shipped pipeline
 
 ## Index
 
-| # | Title | Date | Status |
-|---|-------|------|--------|
+| # | Title | Date | Status   |
+|---|-------|------|----------|
 | [0001](0001-markdown-knowledge-base-as-source-of-truth.md) | Markdown knowledge base as source of truth | 2026-07-31 | Accepted |
 | [0002](0002-mirror-garmin-to-postgres-raw-si-plus-jsonb.md) | Mirror Garmin to Postgres: raw SI + JSONB, conversions in views | 2026-08-06 | Accepted |
 | [0003](0003-home-server-docker-compose-postgres-grafana.md) | Home-server deployment: Docker Compose, Postgres 16 + Grafana | 2026-08-06 | Accepted |
 | [0004](0004-cycling-only-ingestion-with-gear-tagging.md) | Cycling-only ingestion with gear tagging; rides view filters commutes | 2026-08-06 | Accepted |
-| [0005](0005-kotlin-quarkus-backend.md) | Backend: Kotlin + Quarkus + Gradle, Flyway migrations | 2026-08-09 | Proposed |
+| [0005](0005-kotlin-quarkus-backend.md) | Backend: Kotlin + Quarkus + Gradle, Flyway migrations | 2026-08-09 | Accepted |
+| [0006](0006-multi-sport-multi-athlete-schema.md) | Multi-sport, multi-athlete schema (v2) | 2026-08-09 | Accepted |
