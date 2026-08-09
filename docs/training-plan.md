@@ -28,6 +28,7 @@
   - Taper week → **Tatra Loop 1-day**
 - **Gate intensity by morning brief**: HRV below baseline or poor sleep → swap intensity for Z2 or rest. Evening intensity rides hurt REM/HRV — prefer earlier when possible
 - Low-cadence climbing blocks (60–70 rpm, seated) on 1–2 easy rides per month — Tatra climbs are long, not steep
+- **Daily off-bike work** (reminders in the morning brief): 5–10 min core (plank variants, dead bug, etc.) + 5–10 min leg stretching & foam rolling, hamstring priority (very tight) — rolling over static stretching after hard rides
 
 ## On-the-bike fueling practice
 
