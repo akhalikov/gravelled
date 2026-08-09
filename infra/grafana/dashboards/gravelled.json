@@ -4,7 +4,7 @@
   "tags": ["gravelled", "cycling"],
   "timezone": "browser",
   "schemaVersion": 39,
-  "version": 2,
+  "version": 3,
   "editable": true,
   "refresh": "",
   "time": { "from": "now-2y", "to": "now" },
@@ -204,6 +204,25 @@
           "rawQuery": true,
           "format": "table",
           "rawSql": "SELECT start_time_local AS \"Date\", name AS \"Name\", gear_name AS \"Bike\", round(distance_km::numeric, 2) AS \"km\", round(avg_speed_kmh::numeric, 1) AS \"km/h\", average_hr AS \"Avg HR\", max_hr AS \"Max HR\", round(activity_training_load::numeric, 0) AS \"Load\" FROM rides WHERE $__timeFilter(start_time_gmt) ORDER BY start_time_gmt DESC LIMIT 25;"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "timeseries",
+      "title": "Distance per ride",
+      "gridPos": { "h": 8, "w": 24, "x": 0, "y": 37 },
+      "datasource": { "type": "postgres", "uid": "gravelled-pg" },
+      "fieldConfig": { "defaults": { "unit": "lengthkm", "custom": { "drawStyle": "bars", "fillOpacity": 70, "lineWidth": 1 } }, "overrides": [] },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom", "showLegend": true }, "tooltip": { "mode": "single", "sort": "none" } },
+      "targets": [
+        {
+          "refId": "A",
+          "datasource": { "type": "postgres", "uid": "gravelled-pg" },
+          "editorMode": "code",
+          "rawQuery": true,
+          "format": "time_series",
+          "rawSql": "SELECT start_time_gmt AS time, distance_km AS \"Distance (km)\" FROM rides WHERE $__timeFilter(start_time_gmt) ORDER BY 1;"
         }
       ]
     }
