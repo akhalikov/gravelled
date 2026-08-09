@@ -75,5 +75,6 @@
 
 - Height: 175 cm
 - Inseam: 83.5 cm
+- Foot length: 27 cm (shoes: buy by brand's cm chart with ~5 mm margin, ≈ EUR 43; size 42 proved too small)
 - Recommended saddle height: ~745 mm
 - Weight: 72 kg
