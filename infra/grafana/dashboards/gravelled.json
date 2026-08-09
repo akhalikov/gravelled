@@ -4,7 +4,7 @@
   "tags": ["gravelled", "cycling"],
   "timezone": "browser",
   "schemaVersion": 39,
-  "version": 1,
+  "version": 2,
   "editable": true,
   "refresh": "",
   "time": { "from": "now-2y", "to": "now" },
@@ -26,7 +26,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT count(*) AS \"Rides\" FROM rides;"
+          "rawSql": "SELECT count(*) AS \"Rides\" FROM rides WHERE $__timeFilter(start_time_gmt);"
         }
       ]
     },
@@ -45,7 +45,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT round(sum(distance_km)::numeric, 0) AS \"Total km\" FROM rides;"
+          "rawSql": "SELECT round(sum(distance_km)::numeric, 0) AS \"Total km\" FROM rides WHERE $__timeFilter(start_time_gmt);"
         }
       ]
     },
@@ -64,7 +64,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT round(sum(elevation_gain_m)::numeric, 0) AS \"Elevation (m)\" FROM rides;"
+          "rawSql": "SELECT round(sum(elevation_gain_m)::numeric, 0) AS \"Elevation (m)\" FROM rides WHERE $__timeFilter(start_time_gmt);"
         }
       ]
     },
@@ -83,7 +83,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT round((sum(duration_s)/3600.0)::numeric, 1) AS \"Hours\" FROM rides;"
+          "rawSql": "SELECT round((sum(duration_s)/3600.0)::numeric, 1) AS \"Hours\" FROM rides WHERE $__timeFilter(start_time_gmt);"
         }
       ]
     },
@@ -102,7 +102,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "time_series",
-          "rawSql": "SELECT week AS time, distance_km AS \"Distance (km)\" FROM ride_weekly ORDER BY 1;"
+          "rawSql": "SELECT date_trunc('week', start_time_gmt) AS time, sum(distance_km) AS \"Distance (km)\" FROM rides WHERE $__timeFilter(start_time_gmt) GROUP BY 1 ORDER BY 1;"
         }
       ]
     },
@@ -121,7 +121,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "time_series",
-          "rawSql": "SELECT week AS time, training_load AS \"Training load\" FROM ride_weekly ORDER BY 1;"
+          "rawSql": "SELECT date_trunc('week', start_time_gmt) AS time, sum(activity_training_load) AS \"Training load\" FROM rides WHERE $__timeFilter(start_time_gmt) GROUP BY 1 ORDER BY 1;"
         }
       ]
     },
@@ -140,7 +140,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT 'Zone ' || zone AS metric, round((sum(seconds)/3600.0)::numeric, 2) AS value FROM activity_hr_zones z JOIN rides r USING (activity_id) GROUP BY zone ORDER BY zone;"
+          "rawSql": "SELECT 'Zone ' || zone AS metric, round((sum(seconds)/3600.0)::numeric, 2) AS value FROM activity_hr_zones z JOIN rides r USING (activity_id) WHERE $__timeFilter(r.start_time_gmt) GROUP BY zone ORDER BY zone;"
         }
       ]
     },
@@ -165,7 +165,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "time_series",
-          "rawSql": "SELECT start_time_local AS time, avg_speed_kmh AS \"Avg speed (km/h)\", average_hr AS \"Avg HR\" FROM rides ORDER BY 1;"
+          "rawSql": "SELECT start_time_gmt AS time, avg_speed_kmh AS \"Avg speed (km/h)\", average_hr AS \"Avg HR\" FROM rides WHERE $__timeFilter(start_time_gmt) ORDER BY 1;"
         }
       ]
     },
@@ -184,7 +184,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT coalesce(gear_name, '(untagged)') AS \"Bike\", count(*) AS \"Rides\", round(sum(distance_km)::numeric, 0) AS \"km\", round(sum(elevation_gain_m)::numeric, 0) AS \"Elev (m)\" FROM rides GROUP BY 1 ORDER BY 3 DESC NULLS LAST;"
+          "rawSql": "SELECT coalesce(gear_name, '(untagged)') AS \"Bike\", count(*) AS \"Rides\", round(sum(distance_km)::numeric, 0) AS \"km\", round(sum(elevation_gain_m)::numeric, 0) AS \"Elev (m)\" FROM rides WHERE $__timeFilter(start_time_gmt) GROUP BY 1 ORDER BY 3 DESC NULLS LAST;"
         }
       ]
     },
@@ -203,7 +203,7 @@
           "editorMode": "code",
           "rawQuery": true,
           "format": "table",
-          "rawSql": "SELECT start_time_local AS \"Date\", name AS \"Name\", gear_name AS \"Bike\", round(distance_km::numeric, 2) AS \"km\", round(avg_speed_kmh::numeric, 1) AS \"km/h\", average_hr AS \"Avg HR\", max_hr AS \"Max HR\", round(activity_training_load::numeric, 0) AS \"Load\" FROM rides ORDER BY start_time_gmt DESC LIMIT 25;"
+          "rawSql": "SELECT start_time_local AS \"Date\", name AS \"Name\", gear_name AS \"Bike\", round(distance_km::numeric, 2) AS \"km\", round(avg_speed_kmh::numeric, 1) AS \"km/h\", average_hr AS \"Avg HR\", max_hr AS \"Max HR\", round(activity_training_load::numeric, 0) AS \"Load\" FROM rides WHERE $__timeFilter(start_time_gmt) ORDER BY start_time_gmt DESC LIMIT 25;"
         }
       ]
     }

@@ -37,6 +37,21 @@ uv run --with "garminconnect==0.3.2" --with "psycopg[binary]" --with python-dote
 Flags: `--dry-run`, `--limit N` (N most-recent), `--since YYYY-MM-DD`, `--page N`,
 `--all-types` (store every activity type, not just cycling).
 
+### Recurring sync
+
+`sync.sh` wraps `ingest.py --since <N days ago>` (default 7) for a quick, idempotent catch-up:
+
+```bash
+./pipeline/sync.sh        # last 7 days
+./pipeline/sync.sh 14     # last 14 days
+```
+
+Cron-friendly (resolves `uv` by absolute path) — e.g. daily at 20:00:
+
+```
+0 20 * * *  /Users/artur/github/gravelled/pipeline/sync.sh >> /tmp/gravelled-sync.log 2>&1
+```
+
 ## Notes
 
 - **Tokens:** expects `~/.garminconnect/garmin_tokens.json` (see [`../garmin-mcp.md`](../garmin-mcp.md)).
