@@ -13,18 +13,19 @@ is the analytical layer beside it. Rider is based in Kraków; main bike is a Can
 
 ## File map
 
-All content lives as flat, root-level `.md` files. Register every new content file in the README
-`## Contents` index.
+Knowledge-base content lives as flat `.md` files in `docs/`; only `README.md` and `CLAUDE.md`
+stay at the repo root. Register every new content file in the README `## Contents` index.
 
-- `README.md` — entry point: linked index of all files, Quick Facts (bike + rider vitals), Notes
-- `bikes.md` — current & sold bikes with full specs; body measurements at the bottom
-- `rides.md` — ride log (newest-first)
-- `goals.md` — end-of-year goals (checkboxes)
-- `training-plan.md` — Tatra Loop season plan (the season goal)
-- `plans.md` — bikepacking trip planning + gear procurement / upgrade to-dos
-- `equipment.md` — bike computers, bikepacking bags, clothing
-- `atlas-insights.md` — fitness baselines & benchmarks carried over from the previous bike ("Atlas era")
-- `garmin-mcp.md` — runbook for wiring Garmin Connect into Claude via MCP
+- `README.md` (root) — entry point: linked index of all files, Quick Facts (bike + rider vitals), Notes
+- `docs/bikes.md` — current & sold bikes with full specs; body measurements at the bottom
+- `docs/rides.md` — ride log (newest-first)
+- `docs/goals.md` — end-of-year goals (checkboxes)
+- `docs/training-plan.md` — Tatra Loop season plan (the season goal)
+- `docs/plans.md` — bikepacking trip planning + gear procurement / upgrade to-dos
+- `docs/equipment.md` — bike computers, bikepacking bags, clothing
+- `docs/atlas-insights.md` — fitness baselines & benchmarks carried over from the previous bike ("Atlas era")
+- `docs/bike-fit.md` — Retül fit coordinates (Aug 2026)
+- `docs/garmin-mcp.md` — runbook for wiring Garmin Connect into Claude via MCP
 
 Code + infra (the data pipeline) live in subdirectories:
 
@@ -34,9 +35,11 @@ Code + infra (the data pipeline) live in subdirectories:
 
 ## Conventions
 
-- **Files:** Markdown content is lowercase-hyphenated `.md` at the repo root (no subdirectories for
-  the knowledge base). Pipeline code/infra live in `db/`, `pipeline/`, `infra/`. `.claude/workspace/`
-  is git-ignored scratch.
+- **Files:** Markdown content is lowercase-hyphenated `.md` in `docs/` (flat — no nesting inside).
+  `README.md` and `CLAUDE.md` stay at the repo root. Pipeline code/infra live in `db/`, `pipeline/`,
+  `infra/`. `.claude/workspace/` is git-ignored scratch.
+- **Links:** files inside `docs/` link to each other bare (`[bikes.md](bikes.md)`); README links with
+  the `docs/` prefix; docs → code links go up a level (`../pipeline/`).
 - **Structure:** one `#` H1 title, then `##` sections, then `-` bullet lists. Bold marks key entities
   (product names, decisions).
 - **Ride log entries:** newest-first; header `## YYYY-MM-DD — Title`; then metric bullets (Distance,
@@ -59,9 +62,9 @@ Code + infra (the data pipeline) live in subdirectories:
 
 - When vitals change (bike, weight, saddle height, foot length, etc.), also update the README
   **Quick Facts** — it's the at-a-glance source of truth.
-- Ride data: the Markdown `rides.md` log is still curated **by hand**; the Postgres dataset is
+- Ride data: the Markdown `docs/rides.md` log is still curated **by hand**; the Postgres dataset is
   populated by `pipeline/ingest.py` (backfill + sync). Garmin can be pulled directly from Claude
-  Code — see "Claude Code (direct pull, no MCP)" in `garmin-mcp.md`.
+  Code — see "Claude Code (direct pull, no MCP)" in `docs/garmin-mcp.md`.
 - Keep the linked web intact: new content file → add to README Contents; new fact → cross-link where relevant.
 
 ## Commits

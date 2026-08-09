@@ -72,7 +72,7 @@ Code using the same saved tokens, no MCP server needed (verified 2026-08-06):
 - `get_activities(start, limit)` returns the ~92-field activity summary (incl. `hrTimeInZone_*`
   and `splitSummaries`).
 
-This is exactly how the ingestion pipeline pulls data — see [`pipeline/`](pipeline/):
+This is exactly how the ingestion pipeline pulls data — see [`pipeline/`](../pipeline/):
 
 ```bash
 uv run --with "garminconnect==0.3.2" --with "psycopg[binary]" --with python-dotenv \

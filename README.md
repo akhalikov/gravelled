@@ -4,15 +4,15 @@ Context repository for my gravel bike and overall cycling journey.
 
 ## Contents
 
-- [bikes.md](bikes.md) — current bikes (Canyon Grizl CF 8 ESC, Kona Rove DL) and sold bikes, full specs
-- [equipment.md](equipment.md) — computers, bikepacking bags, clothing
-- [rides.md](rides.md) — ride log
-- [plans.md](plans.md) — planned upgrades and to-dos
-- [garmin-mcp.md](garmin-mcp.md) — Garmin Connect ↔ Claude setup (install steps, gotchas)
-- [bike-fit.md](bike-fit.md) — Retül fit coordinates (Aug 2026)
-- [atlas-insights.md](atlas-insights.md) — training baselines from the Atlas era
-- [goals.md](goals.md) — goals for end of 2026
-- [training-plan.md](training-plan.md) — Tatra Loop season goal: training progression
+- [docs/bikes.md](docs/bikes.md) — current bikes (Canyon Grizl CF 8 ESC, Kona Rove DL) and sold bikes, full specs
+- [docs/equipment.md](docs/equipment.md) — computers, bikepacking bags, clothing
+- [docs/rides.md](docs/rides.md) — ride log
+- [docs/plans.md](docs/plans.md) — planned upgrades and to-dos
+- [docs/garmin-mcp.md](docs/garmin-mcp.md) — Garmin Connect ↔ Claude setup (install steps, gotchas)
+- [docs/bike-fit.md](docs/bike-fit.md) — Retül fit coordinates (Aug 2026)
+- [docs/atlas-insights.md](docs/atlas-insights.md) — training baselines from the Atlas era
+- [docs/goals.md](docs/goals.md) — goals for end of 2026
+- [docs/training-plan.md](docs/training-plan.md) — Tatra Loop season goal: training progression
 - [db/](db/) — Postgres schema + views for the riding dataset
 - [pipeline/](pipeline/) — Garmin → Postgres ingestion (backfill + sync)
 - [infra/](infra/) — Docker Compose (Postgres + Grafana) for the home server
