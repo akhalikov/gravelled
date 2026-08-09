@@ -20,9 +20,12 @@ Set August 2, 2026, based on [atlas-insights.md](atlas-insights.md).
 - [ ] Structured training: 1 intensity session/week to start (sprint workout already prepared), rest easy — watch HRV response
 - [ ] Stretch: ~2.9–3.0 W/kg FTP by December
 
-## Milestone
+## Milestone — Season Goal: Tatra Loop
 
-- [ ] First century (100+ km) on the Grizl — pacing at HR 125–128 per Atlas data; season closer
+- [ ] **Tatra Loop in 1 day** (autumn): 196 km / ~2,700 m — see [training-plan.md](training-plan.md)
+- [ ] Rehearsal: 2-day Tatra Loop with 1 overnight (Aug 8–16 window)
+- [ ] First century (100+ km, 1,000+ m) on the Grizl — training step on the way, pacing HR 125–128
+- [ ] Bike fitting — scheduled Friday Aug 7
 
 ## Supporting (from plans.md)
 
