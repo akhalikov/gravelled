@@ -2,7 +2,7 @@
 
 ## Cycling Computers & Watches
 
-- Garmin Edge 540 Solar
+- Garmin Edge 540 Solar — data screens: configure via **Garmin Connect app** (device → Activity Profiles → Data Screens), not the on-device editor (clunky: Back = cancel, save is a hidden "Done"). Paired: 4iiii power meter (ANT+), Fenix 6 as HR broadcast
 - Garmin Fenix 6
 
 ## Bikepacking Bags & Accessories
