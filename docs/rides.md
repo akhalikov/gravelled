@@ -17,6 +17,7 @@
 - Next-day lunchtime tiredness and strong desire to sleep — normal glycogen/recovery dip after biggest load in months
 - 50 min stretching + hamstring foam rolling next day at lunch, follow-along video: https://www.youtube.com/watch?v=GB-zYq1prl4
 - Discovered rectus femoris / vastus medialis are also tender — rolling accidentally touched them, painful → add quads to the daily rolling routine, not just hamstrings
+- Very good emotional state the next day: no depressive/sad feelings, generally positive mood with increased motivation
 
 - Distance: 30.01 km
 - Time: 1:18

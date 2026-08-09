@@ -69,8 +69,10 @@ Code + infra (the data pipeline) live in subdirectories:
 
 ## Commits
 
-One concise **imperative-mood** line per logical change, sentence case, **no type prefixes**
-(no `feat:`/`fix:`), no body — except the standing trailer `Co-Authored-By: Claude <noreply@anthropic.com>`
-on commits Claude makes. Name specifics and rationale — e.g. "Record shoe order: Fizik Terra
-Atlas 42.5 black", "Choose standard Thundero 44 over HD (weight/rolling resistance)". The log reads
-as a changelog of decisions.
+**Claude does not commit.** Claude edits/creates files and leaves them uncommitted; Artur reviews
+and commits himself (author: `akhalikoff@gmail.com` — set via repo-local `git config user.email`).
+
+Style, for reference: one concise **imperative-mood** line per logical change, sentence case,
+**no type prefixes** (no `feat:`/`fix:`), no body. Name specifics and rationale — e.g. "Record shoe
+order: Fizik Terra Atlas 42.5 black", "Choose standard Thundero 44 over HD (weight/rolling
+resistance)". The log reads as a changelog of decisions.
