@@ -23,7 +23,7 @@
 
 ## Clothing
 
-- NORTHWAVE MTB Boots Hammer Plus
+- NORTHWAVE MTB Boots Hammer Plus, size 42 — **for sale** (too small: 42 = 26.7 cm vs 27 cm foot)
 - NORTHWAVE Short-sleeve Jersey Force Evo
 - NORTHWAVE Socks Origin × 2
 - NORTHWAVE Rain Jacket Breeze 3
