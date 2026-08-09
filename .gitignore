@@ -1,2 +1,10 @@
 .claude/workspace/
 .DS_Store
+
+# secrets — never commit real connection strings / passwords
+*.env
+!*.env.example
+
+# python
+__pycache__/
+*.pyc

@@ -58,6 +58,27 @@ Cmd+Q the Claude app, relaunch, start a **new** conversation. Check Settings →
 5. **Debug logs**: `~/Library/Logs/Claude/mcp-server-Garmin*.log`. Test the server manually with the exact command+args from config — if it prints "Garmin Connect client initialized successfully" and waits, it works.
 6. **Training readiness is unavailable** — Fenix 6 doesn't support that metric. Everything else (sleep, HRV, body battery, stress, activities) works.
 
+## Claude Code (direct pull, no MCP)
+
+The setup above is for the **Claude Desktop app**. **Claude Code (the CLI) does not share that
+config** — `claude mcp list` there shows no Garmin server. But you can pull directly from Claude
+Code using the same saved tokens, no MCP server needed (verified 2026-08-06):
+
+- Tokens live in `~/.garminconnect/garmin_tokens.json` — a **custom single-file** format
+  (`di_token` / `di_refresh_token` / `di_client_id`) written by `garmin-mcp-auth`, not the classic
+  garth `oauth1_token.json` / `oauth2_token.json` pair.
+- Log in with `Garmin().login("~/.garminconnect")` using **garminconnect 0.3.2** (the version
+  garmin_mcp pins — it must match, since that's what wrote the tokens).
+- `get_activities(start, limit)` returns the ~92-field activity summary (incl. `hrTimeInZone_*`
+  and `splitSummaries`).
+
+This is exactly how the ingestion pipeline pulls data — see [`pipeline/`](pipeline/):
+
+```bash
+uv run --with "garminconnect==0.3.2" --with "psycopg[binary]" --with python-dotenv \
+    python pipeline/ingest.py --dry-run
+```
+
 ## Related
 
 - Scheduled task `garmin-morning-brief`: daily ~9:00 health brief (sleep, HRV, RHR, body battery + day suggestion). Local task — runs only while the Claude app is open. Stored at `~/Claude/Scheduled/garmin-morning-brief/SKILL.md`.

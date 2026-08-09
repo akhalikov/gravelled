@@ -1,0 +1,49 @@
+# Postgres + Grafana for the gravelled riding dataset. Run on 192.168.1.9:
+#   cp .env.example .env      # then edit the passwords
+#   docker compose up -d
+# Grafana:  http://192.168.1.9:3000     Postgres: 192.168.1.9:5432
+name: gravelled
+
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-gravelled}
+      POSTGRES_USER: ${POSTGRES_USER:-gravelled}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in infra/.env}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-gravelled} -d ${POSTGRES_DB:-gravelled}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  grafana:
+    image: grafana/grafana:11.3.1
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_ADMIN_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:?set GRAFANA_ADMIN_PASSWORD in infra/.env}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+      # Consumed by grafana/provisioning/datasources/postgres.yml
+      GRAVELLED_DB_HOST: db:5432
+      GRAVELLED_DB_NAME: ${POSTGRES_DB:-gravelled}
+      GRAVELLED_DB_USER: ${POSTGRES_USER:-gravelled}
+      GRAVELLED_DB_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in infra/.env}
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+
+volumes:
+  pgdata:
+  grafana-data:
