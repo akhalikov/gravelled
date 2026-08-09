@@ -55,7 +55,7 @@
 
 ## Sold Bike
 
-**Focus Atlas 8.7** (sold for 7,000 PLN)
+**Focus Atlas 8.7** — owned August 12, 2024 – July 24, 2026 (sold for 7,000 PLN)
 
 - Carbon frame, size 54
 - Stack: 576 mm, Reach: 395 mm
