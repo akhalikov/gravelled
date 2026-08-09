@@ -12,7 +12,7 @@ Candidate routes (pacing basis: 50–60 km/day loaded, mountains 40–50):
 5. **Green Velo East** — Białowieża→Biebrza→Masuria, ~450–500 km, train to Białystok
 
 - **Bike fitting**: planned, first time ever
-- **Power meter**: ✅ ordered 4iiii Precision 3+ RX810 GRX NDS, 170 mm (new from Bikeinn/Tradeinn, ~$370, July 31, 2026) — compatible with RX820 crankset; OLX used unit was already sold
+- **Power meter**: ✅ delivered Aug 7, 2026 — 4iiii Precision 3+ RX810 GRX NDS, 170 mm (Bikeinn, ~$370) — compatible with RX820 crankset. Install: swap left arm, pinch bolts 12–14 Nm; pair Edge 540 via ANT+; zero-offset before rides. Left-only (doubles left leg)
 - **Second wheelset**: for city training, standard 12×142 axle, narrow 28-32C tires with tubes, looking for used on OLX/Allegro
 - **Tubeless**: switch after first test rides — **do before Aug 8 trip**; target ~2.2–2.6 bar at 72 kg (current 3.5–4 bar with tubes is the main source of harshness)
 - **Faster tires**: **Tufo Gravel Thundero 44 (standard)** — ordered Aug 2026 ×2 with Schwalbe Tire Booster + 2 Fidlock Twist 590ml bottles. Standard over HD: no punctures on loaded WTB Riddler previously, sealant covers small cuts, and lower rolling resistance pays off on daily tarmac rides. Loaded riding: +0.2–0.3 bar rear. Alternatives considered: HD version, Pathfinder Pro, Terra Speed, G-One RS

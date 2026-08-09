@@ -6,7 +6,7 @@
 
 ## Prerequisites (this week)
 
-- [x] Power meter — 4iiii arriving
+- [x] Power meter — 4iiii delivered Aug 7, installed on Grizl
 - [x] Bike fitting — done Aug 7 (Retül, see [bike-fit.md](bike-fit.md)); saddle height 745 mm confirmed, Power Comp 143 saddle
 - [ ] Tubeless conversion + one test loop before the trip
 - [ ] Shoes — order today; do NOT take unbroken shoes on the 2-day
