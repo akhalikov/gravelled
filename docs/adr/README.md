@@ -32,3 +32,4 @@ before this convention existed — the greenfield build and the shipped pipeline
 | [0002](0002-mirror-garmin-to-postgres-raw-si-plus-jsonb.md) | Mirror Garmin to Postgres: raw SI + JSONB, conversions in views | 2026-08-06 | Accepted |
 | [0003](0003-home-server-docker-compose-postgres-grafana.md) | Home-server deployment: Docker Compose, Postgres 16 + Grafana | 2026-08-06 | Accepted |
 | [0004](0004-cycling-only-ingestion-with-gear-tagging.md) | Cycling-only ingestion with gear tagging; rides view filters commutes | 2026-08-06 | Accepted |
+| [0005](0005-kotlin-quarkus-backend.md) | Backend: Kotlin + Quarkus + Gradle, Flyway migrations | 2026-08-09 | Proposed |
