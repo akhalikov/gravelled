@@ -57,6 +57,8 @@
 
 **Focus Atlas 8.7** — owned August 12, 2024 – July 24, 2026 (sold for 7,000 PLN)
 
+- Total mileage: 1,350 km
+
 - Carbon frame, size 54
 - Stack: 576 mm, Reach: 395 mm
 - Shimano GRX 2×12, RX820
