@@ -17,7 +17,7 @@ Context repository for my gravel bike and overall cycling journey.
 
 - Main bike: **Canyon Grizl CF 8 ESC w/ ECLIPS** (since July 2026)
 - City bike: **Kona Rove DL 2019**
-- Rider: 175 cm, 83.5 cm inseam, 72 kg, saddle height ~745 mm
+- Rider: 175 cm, 83.5 cm inseam, 72 kg, saddle height ~745 mm, foot length 27 cm (shoes ≈ EU 42.5–43)
 - Location: Kraków
 
 ## Notes
