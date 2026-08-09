@@ -33,10 +33,10 @@
     {
       "id": 2,
       "type": "stat",
-      "title": "Total distance",
+      "title": "Total distance (km)",
       "gridPos": { "h": 4, "w": 6, "x": 6, "y": 0 },
       "datasource": { "type": "postgres", "uid": "gravelled-pg" },
-      "fieldConfig": { "defaults": { "unit": "lengthkm" }, "overrides": [] },
+      "fieldConfig": { "defaults": { "unit": "none", "decimals": 0 }, "overrides": [] },
       "options": { "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }, "colorMode": "value", "graphMode": "none", "textMode": "value" },
       "targets": [
         {
@@ -52,10 +52,10 @@
     {
       "id": 3,
       "type": "stat",
-      "title": "Total elevation gain",
+      "title": "Total elevation gain (m)",
       "gridPos": { "h": 4, "w": 6, "x": 12, "y": 0 },
       "datasource": { "type": "postgres", "uid": "gravelled-pg" },
-      "fieldConfig": { "defaults": { "unit": "lengthm" }, "overrides": [] },
+      "fieldConfig": { "defaults": { "unit": "none", "decimals": 0 }, "overrides": [] },
       "options": { "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }, "colorMode": "value", "graphMode": "none", "textMode": "value" },
       "targets": [
         {
@@ -71,10 +71,10 @@
     {
       "id": 4,
       "type": "stat",
-      "title": "Total moving hours",
+      "title": "Total moving hours (h)",
       "gridPos": { "h": 4, "w": 6, "x": 18, "y": 0 },
       "datasource": { "type": "postgres", "uid": "gravelled-pg" },
-      "fieldConfig": { "defaults": { "unit": "h" }, "overrides": [] },
+      "fieldConfig": { "defaults": { "unit": "none", "decimals": 1 }, "overrides": [] },
       "options": { "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false }, "colorMode": "value", "graphMode": "none", "textMode": "value" },
       "targets": [
         {
