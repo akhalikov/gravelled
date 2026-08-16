@@ -77,5 +77,6 @@
 - Height: 175 cm
 - Inseam: 83.5 cm
 - Foot length: 27 cm (shoes: buy by brand's cm chart with ~5 mm margin, ≈ EUR 43; size 42 proved too small)
+- Metatarsal circumference: 24.5 cm → **Regular fit** in Northwave terms, near the top of the range (Regular = 23.8–24.7 at EU 42.5) — narrow lasts cause pinkie pressure (Fizik Terra Atlas "wide" still too narrow, Aug 2026)
 - Saddle height: 745 mm (confirmed by Retül fit, Aug 2026 — see [bike-fit.md](bike-fit.md))
 - Weight: 72 kg

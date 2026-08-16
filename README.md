@@ -13,6 +13,7 @@ Context repository for my gravel bike and overall cycling journey.
 - [docs/atlas-insights.md](docs/atlas-insights.md) — training baselines from the Atlas era
 - [docs/goals.md](docs/goals.md) — goals for end of 2026
 - [docs/training-plan.md](docs/training-plan.md) — Tatra Loop season goal: training progression
+- [docs/ftp-test.md](docs/ftp-test.md) — 20-min FTP test protocol, zone table and results log
 - [backend/](backend/) — Kotlin + Quarkus backend: Flyway schema migrations, REST API (ADR 0005)
 - [db/](db/) — Postgres schema + views for the riding dataset
 - [pipeline/](pipeline/) — Garmin → Postgres ingestion (backfill + sync)

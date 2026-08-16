@@ -2,6 +2,13 @@
 
 Guidance for Claude when working in this repository.
 
+## Communication style
+
+Respond in **simple, plain English (CEFR B2 level)**. Short sentences. Common
+words. One idea per sentence. Explain technical terms when they are needed
+(e.g. "LTHR — the heart rate you can hold for about an hour"). Keep exact
+numbers, file paths and product names precise.
+
 ## What this is
 
 `gravelled` is a personal **context repository** for Artur's gravel-cycling journey — a small,

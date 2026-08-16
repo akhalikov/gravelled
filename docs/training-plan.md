@@ -11,6 +11,7 @@
 - [ ] Tubeless conversion + one test loop before the trip
 - [ ] Shoes — order today; do NOT take unbroken shoes on the 2-day
 - [ ] FTP test within ~2 weeks of power meter install (20-min test, Vistula loop) → set zones
+      — scheduled **Tue Aug 18, 2026**; protocol in [ftp-test.md](ftp-test.md)
 
 ## Weekly Structure (Aug–Sep, after the 2-day trip)
 

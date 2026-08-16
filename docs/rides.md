@@ -1,5 +1,22 @@
 # Ride Log
 
+## 2026-08-15 — FIRST CENTURY: Kraków–Jaworzno Loop 🎉
+
+- Distance: **130.02 km** (planned 124 + wild detours)
+- Elevation gain: **1,310 m**
+- Moving time: 6:24 (20.3 km/h), start 10:57
+- Avg HR: 138 (over the Z2 plan — heat, drift, hike-a-bike, and some enthusiasm), max 172
+- Calories: 3,247
+- Goals milestone **century (100+ km / 1,000+ m) — done**, both numbers exceeded
+- Fueling (consistent, ~40 g/h — under the 60–80 target, note for Tatra): 2 bananas,
+  4 gels, 1 bar; lunch hot-dog + cold coffee; later ice cream + zero-sugar coke
+- ⚠️ Power meter dropped mid-ride (climbs 3–6 lack power), reconnected by itself.
+  Battery checked after: 80–90% → verdict: one-off ANT+ glitch, not battery.
+  If it repeats: keep pedaling, Sensors → reconnect; check 4iiii firmware
+- Route notes: 2 sections near Jaworzno unrideable (bike carrying) — reroute before reuse;
+  otherwise a great loop
+- Recovery: 737 m open-water swim in Liszki lake same evening (multi-sport day!)
+
 ## 2026-08-08 — Tenczyński Park (longest Grizl ride, first with power)
 
 - Distance: 92.02 km
