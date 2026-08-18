@@ -59,7 +59,12 @@ Candidate routes (pacing basis: 50–60 km/day loaded, mountains 40–50):
 - **Second wheelset**: for city training, standard 12×142 axle, narrow 28-32C tires with tubes, looking for used on OLX/Allegro
 - **Tubeless**: switch after first test rides — **do before Aug 8 trip**; target ~2.2–2.6 bar at 72 kg (current 3.5–4 bar with tubes is the main source of harshness)
 - **Faster tires**: **Tufo Gravel Thundero 44 (standard)** — ordered Aug 2026 ×2 with Schwalbe Tire Booster + 2 Fidlock Twist 590ml bottles. Standard over HD: no punctures on loaded WTB Riddler previously, sealant covers small cuts, and lower rolling resistance pays off on daily tarmac rides. Loaded riding: +0.2–0.3 bar rear. Alternatives considered: HD version, Pathfinder Pro, Terra Speed, G-One RS
-  - Still needed for tubeless: sealant (~100 ml/tire + top-up bottle), tubeless valves ~44 mm, plug kit
+  - ✅ **Tubeless conversion done Aug 18, 2026**: Thundero 44 both wheels, RideNow 45 mm valves,
+    Peaty's Biofibre ~110 ml/tire, seated first try with the Schwalbe booster
+  - Pressures (72 kg): gravel 2.2 front / 2.4 rear; mostly-asphalt 2.5 / 2.7; loaded +0.2–0.3
+  - ⚠️ Front tire mounted **opposite to the rotation arrow** (arrow only spotted on the 2nd tire;
+    beads too locked to redo). Effect ≈ negligible — **flip at the next sealant change (Nov–Dec 2026)**
+  - Sealant refresh every 3–4 months (shake test: no sloshing = top up ~50 ml)
   - Tubeless install may need a booster: charge tank to ~8–11 bar with floor pump, dump into tire to seat beads; remove valve core for faster airflow, soapy water on beads
 - **Shoes**: replace Northwave Hammer Plus (heavy, poor ventilation, toe pressure on long rides). **Root cause found**: size 42 = 26.7 cm foot, but actual foot length is 27 cm — shoe too small from day one. **Sell Hammer Plus while BOA works.**
   - Sizing rule: buy by foot length from each brand's cm chart, not EUR size. 27 cm + ~5 mm long-ride margin
@@ -74,6 +79,11 @@ Candidate routes (pacing basis: 50–60 km/day loaded, mountains 40–50):
     keep that trick for long days regardless
   - Still open (later, budget willing): a lighter, ventilated summer shoe — the Fizik's
     perforation was its one win. NW's ventilated models in Regular fit are the shortlist
+  - **Watchlist: UDOG Forza gravel** — wrap-fit system (good for the pinkie issue), breathable,
+    320 g, nylon-carbon sole (moderate stiffness). **Size 43** (UDOG 43 ↔ NW 42.5 per their
+    cross-brand chart; their foot-length chart puts 27 cm at top of 42 = the known trap).
+    719 zł at davorin.pl (SRP 849) — too expensive; wait for a deal / end-of-season sale.
+    Automated: weekly price-watch task (Mondays), alerts if < ~600 zł
 - **1× drivetrain**: already standard on Grizl
 
 ## To-Do

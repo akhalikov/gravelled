@@ -38,6 +38,18 @@
 - App: Canyon app (iOS)
 - Firmware update was available on first connection
 
+### Maintenance log / know-how
+
+- **Aug 18, 2026 — shifting fixed at home** (~350 km, after the 130 km gravel century).
+  Symptom: cogs 4–5 clicked and dropped back, worse upshifting, faint click downshifting.
+  Cause: new-cable stretch (normal first-service item) + rear wheel not fully seated.
+  Fix: reseat wheel + **barrel adjuster on the RD-RX822 counter-clockwise (adds tension),
+  quarter turn at a time**, hand-pedaling, then test all 12 cogs both directions. No shop needed.
+  Rules of thumb: tension errors affect *several* cogs and are directional; a single bad cog =
+  stiff chain link or damaged tooth; good at the ends but bad in the middle (or vice versa) = bent
+  hanger → shop. Never touch the H/L limit screws.
+- Tubeless: see [plans.md](plans.md) for pressures and the sealant-refresh schedule
+
 ### Other
 
 - Saddle: Power Comp 143 mm (per Retül fit, Aug 2026)
