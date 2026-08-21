@@ -38,6 +38,12 @@
 - App: Canyon app (iOS)
 - Firmware update was available on first connection
 
+### Weight
+
+- **10.4 kg as ridden** (Aug 2026): Tufo Thundero 44 tubeless, small Tailfin top-tube bag,
+  Shimano SPD pedals, 3 bottle cages. Empty bottles, no other luggage
+- Needed for Power Guide / speed models (with rider: 72 + 10.4 ≈ 82.4 kg)
+
 ### Maintenance log / know-how
 
 - **Aug 18, 2026 — shifting fixed at home** (~350 km, after the 130 km gravel century).
