@@ -1,5 +1,36 @@
 # Plans & Upgrades
 
+## Indoor trainer — buy Sept–Oct 2026 (highest-priority purchase)
+
+Fixes the documented weakness: Nov–Feb is nearly empty every year, fitness rebuilt each March.
+Directly serves the goals.md rule "no month under 8 rides".
+
+- **Chosen: Wahoo KICKR CORE 2 + Zwift Cog / Click — 2,399 zł** (Decathlon PL)
+- Why the Zwift Cog version: bike has **Micro Spline** 10–51T, trainers ship HG. The Cog is a single
+  cog that fits any 8–12s chain → no cassette to buy, no lockring tool/chain whip, no chain-length
+  or B-tension compromise. Simplicity = fewer excuses on a dark evening
+- Rejected: Second Life KICKR CORE 1,798.99 zł + HG cassette ~250–300 zł (≈2,100 zł, cheaper but
+  needs cassette install + slack chain); KICKR v6 4,299 zł (overkill — power meter already owned);
+  Tacx FLUX S 2,655.75 zł (±3%, no advantage)
+- Extras to budget: **fan (essential)**, mat, towel, Zwift ~60 zł/month for the cold months only
+- Setup: enter FTP 213 W in Zwift so workouts scale correctly; trainer controls resistance (ERG),
+  so the 4iiii is not needed indoors
+- Buy **before winter demand** (Sept–Oct); prices climb and stock thins from November
+- Automated: weekly deal watch for KICKR CORE / CORE 2 under ~2,200 zł
+
+## Road bike — future purchase (~winter 2026/27)
+
+Rationale: ride data shows most riding is paved (century was 20% unpaved; Tatra Loop 100% paved;
+Vistula loop tarmac). Not urgent — the planned **second wheelset with 28–32C slicks** solves ~80%
+of it far cheaper, and Sept–Oct belongs to the Tatra Loop + half marathon.
+
+- **Target: Canyon Endurace CF 8 Di2, size S** (CF 7 mechanical = cheaper fallback; CF SLX = premium)
+- Why Endurace: endurance geometry (taller stack, 32–35C clearance) suits 4–8 h days and the
+  Retül fit's moderate −47 mm bar drop. Ultimate/Aeroad = too racy for his riding
+- Price target: **under ~11,000 PLN** (list ~14k) — same 25–40% bargain pattern as the Grizl
+- Channel: Canyon PL **outlet / wyprzedaż** (new discounted + used-with-warranty), best in winter
+- Automated: weekly deal-watch task (Mondays), alerts if size S under 11k appears
+
 ## Century ride — Kraków–Jaworzno Loop (Sat, Aug 15, 2026)
 
 **Weekend swap: Tatra 2-day postponed** (needs its own date soon — Sept fills fast).

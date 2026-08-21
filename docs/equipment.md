@@ -24,6 +24,8 @@
 ## Clothing
 
 - NORTHWAVE MTB Boots Hammer Plus, size 42 — **for sale** (too small: 42 = 26.7 cm vs 27 cm foot)
+- SIROKO SRX Dauphiné ultralight short-sleeve jersey, green (Aug 2026) — race/aero fit, verified
+  no movement or breathing restriction; the hot-day jersey
 - NORTHWAVE Short-sleeve Jersey Force Evo
 - NORTHWAVE Socks Origin × 2
 - NORTHWAVE Rain Jacket Breeze 3
