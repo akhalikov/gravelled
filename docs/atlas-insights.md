@@ -32,8 +32,11 @@ Ridden ~12 times — the standard test track.
 
 - Aerobic efficiency improved measurably 2024→2025 (faster at lower HR on same loop)
 - VO2max: 51 (May 2026) → 50 (Jul 2026) — flat/slightly down
-- FTP on file: 186 W from **2021** — stale, ignore. Re-test when 4iiii arrives. 186 W @ 72 kg = 2.6 W/kg
-- Observed max HR: ~174–175
+- ~~FTP on file: 186 W from 2021~~ — **correction (Aug 19, 2026): the "186 W / 2021" figure was
+  never verified in Garmin; the profile FTP field was empty before the power meter.** See
+  [rides.md](rides.md) for the real numbers
+- HR (from Edge, %LTHR zones, Aug 2026): **cycling LTHR 157**, max HR 183 (both auto-detected).
+  Running LTHR 165. Earlier "observed max ~174–175" was just the highest seen in ride files
 
 ## Seasonality (the weakness)
 

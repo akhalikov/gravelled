@@ -10,15 +10,18 @@
 - [x] Bike fitting — done Aug 7 (Retül, see [bike-fit.md](bike-fit.md)); saddle height 745 mm confirmed, Power Comp 143 saddle
 - [ ] Tubeless conversion + one test loop before the trip
 - [ ] Shoes — order today; do NOT take unbroken shoes on the 2-day
-- [ ] FTP test within ~2 weeks of power meter install (20-min test, Vistula loop) → set zones
+- [x] FTP test — done Aug 19, 2026; **settled at FTP 205 W** (2.85 W/kg) after the Aug 21 sweet-spot
+      session showed 206 W = threshold. Set in Garmin. Zones + lessons in [rides.md](rides.md).
+      Retest in 6–8 weeks (early Oct)
       — scheduled **Tue Aug 18, 2026**; protocol in [ftp-test.md](ftp-test.md)
 
 ## Weekly Structure (Aug–Sep, after the 2-day trip)
 
 - **1× intensity ride** — progression of sweet spot / tempo (the muscular endurance that climbs need):
   - Weeks 1–2: 3×12 min tempo (done once already ✓)
-  - Weeks 3–4: 2×20 min sweet spot (88–94% FTP once zones are set)
-  - Weeks 5–6: 3×20 min sweet spot or 2×30 min tempo
+  - Weeks 3–4: **2×20 min sweet spot @ 180–195 W** (Garmin workout ready, scheduled Aug 26)
+  - Weeks 5–6: 3×20 min sweet spot (180–195 W) or 2×30 min tempo (160–185 W)
+  - Steer the step AVG / lap power, not 3s. Flat road on interval days
   - Sprints workout (already prepared): rotate in every 2nd week as a lighter session, not extra
 - **1–2× easy rides** — Z2, HR ≤ 130, Vistula loop pace deliberately relaxed
 - **1× long ride, progressive** (the key sessions):

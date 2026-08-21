@@ -1,5 +1,72 @@
 # Ride Log
 
+## 2026-08-21 — Sweet Spot 2×20 → **FTP settled at 205 W**
+
+- Ride: 44.0 km, 1:40, avg HR 142 / max 169. HRV that morning 57 ms (best on record, baseline 36–49)
+- **Interval 1: 20 min, 206 W, HR 155.** **Interval 2: 20 min, 206 W, HR 161.** Zero fade, 30.3 km/h both
+- Verdict: 206 W sat *at/above* cycling LTHR (157) → that was **threshold work, not sweet spot**.
+  Three sources now agree the truth is ~205: test formula 196 (submaximal), Garmin algorithm 213
+  (optimistic), physiological response today ~205. **FTP set to 205 W in Garmin (2.85 W/kg)**
+
+### Zones @ FTP 205 W
+
+| Zone | Watts |
+|---|---|
+| Z1 recovery | <113 |
+| Z2 endurance | 115–154 |
+| Z3 tempo | 156–185 |
+| Z4 threshold | 187–215 |
+| Sweet spot | 180–193 |
+
+- Tatra Loop: climbs **125–155 W**, brief Z3 ≤185 W, never >200 W before km 150
+
+### Lessons — pacing intervals outdoors
+
+- **Steer the step AVG (= lap power), never 3s power.** 3s swings ±30 W on rolling ground; a 13 W
+  corridor is unridable that way. The Edge workout screen shows AVG next to 3S PWR — that's the number.
+  The coloured bar/arrow tracks *current* power, so it flickers — ignore it
+- Interval corridors widened to ~15–20 W in all rebuilt workouts; flat road for interval days
+- Workouts use **custom watts** (not power zones): sweet spot straddles the Z3/Z4 boundary, so a
+  named zone is too loose. Zones are fine for easy/endurance rides (they auto-scale with FTP)
+- ERG mode on the future trainer removes this problem entirely in winter
+
+## 2026-08-19 — FTP Test (20 min) — first ever
+
+- Ride: 32.7 km, 1:20, avg HR 130 / max 160, start 08:10
+- Structure ran as the uploaded Garmin workout (warmup → 3×1 min spins → 5 min tempo → 5 min easy →
+  **20 min test** → cooldown)
+- **Test lap: 20 min, avg power 206 W**, 29.4 km/h, 9.8 km, avg HR 148 / max 160
+- Warm-up spins: 260 / 217 / 223 W (legs were awake)
+
+### Result — two numbers, both real
+
+| Source | FTP | Date | Method |
+|---|---|---|---|
+| 20-min test | **196 W** (206 × 0.95) | Aug 19 | formula |
+| Garmin auto-detect | **213 W** | Aug 12 (from the 3×12 tempo session) | FirstBeat algorithm |
+
+- At 72 kg: 2.7–3.0 W/kg. True value likely **200–215 W**
+- Test effort was **submaximal**: avg HR 148 vs cycling LTHR 157, max only 160 of 183 —
+  paced conservatively (as instructed). Also: early morning, 4 days after the century, left-only meter
+- Decision: keep Garmin's **213 W** (drives Power Guide / Stamina / zones). Validate with the next
+  sweet-spot session (2×20 min @ 187–200 W): sustainable → 213 is right; blow-up → drop to ~205
+- **Retest in 6–8 weeks** — second tests are typically 5–10% higher just from knowing the effort
+
+### Power zones @ FTP 213 W
+
+| Zone | Watts |
+|---|---|
+| Z1 recovery | <117 |
+| Z2 endurance | 119–160 |
+| Z3 tempo | 162–192 |
+| Z4 threshold | 194–224 |
+| Z5 VO2max | 226–256 |
+| Sweet spot (88–94%) | 187–200 |
+
+- Tatra Loop targets: climbs **130–160 W** (Z2, all-day), brief Z3 ≤190 W on steep ramps,
+  never >200 W before km 150
+- Century context: NP 158 W for 6+ h = ~74% of FTP — strong endurance base
+
 ## 2026-08-15 — FIRST CENTURY: Kraków–Jaworzno Loop 🎉
 
 - Distance: **130.02 km** (planned 124 + wild detours)
